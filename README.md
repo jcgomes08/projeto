@@ -49,4 +49,4 @@ Esse projeto está sob a licença MIT.
 
 ---
 
-Feito por João pedro :wave: [Participe da comunidade da rocketseat!](https://discord.gg/rocketseat)
+Feito por João Pedro :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
