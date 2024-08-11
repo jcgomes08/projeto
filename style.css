@@ -26,12 +26,6 @@
 
 
 body { 
-    /*
-    background-image: url(./assets/assets/bg-mobile.jpg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size:cover
-    */
 
      background: var(--bg-url) no-repeat top center/cover;
      height: 100vh;
@@ -183,11 +177,11 @@ footer {
 
 @media (min-widht: 700px) {
     :root {
-        --bg-url: url(./assets/bg-desktop.jpg);
+        --bg-url: url(./assets/assets/BLACK.jpg);
     }
 
     .light {
-        --bg-url: url(./assets/assets/fundo.rosa.jpg);
+        --bg-url: url(./assets/assets/fundo.rosa2.webp);
     }
 }
 
