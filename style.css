@@ -6,17 +6,17 @@
 
 :root {
     --text-color: white;
-    --bg-url: url(./assets/assets/bg-mobile.jpg);
+    --bg-url: url(./assets/assets/BLACK.jpg);
     --stroke-color: rgba(255, 255, 255, 0.5);
     --surface-color:rgba(255, 255, 255, 0.05);
     --surface-color-hover: rgba(0, 0, 0, 0.2);
     --hilight-color: rgba(255, 255, 255, 0.2);
-    --switch-bg-url: url(./assets/assets/moon-stars.svg)
+    --switch-bg-url: url(./assets/assets/moon-stars.svg);
 }
 
 .light {
     --text-color:black;
-    --bg-url: url(./assets/assets/bg-mobile-light.jpg);
+    --bg-url: url(./assets/assets/fundo.rosa2.webp);
     --stroke-color:rgba(0, 0, 0, 0.5);
     --surface-color:rgba(0, 0, 0, 0.05);
     --surface-color-hover: rgba(0, 0, 0, 0.2);
@@ -187,7 +187,7 @@ footer {
     }
 
     .light {
-        --bg-url: url(./assets/bg-desktop-light.jpg);
+        --bg-url: url(./assets/assets/fundo.rosa.jpg);
     }
 }
 
@@ -209,3 +209,4 @@ footer {
         left: 0;
     }
 }
+
