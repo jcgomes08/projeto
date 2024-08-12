@@ -5,22 +5,22 @@
 }
 
 :root {
+    --text-color:black;
+    --bg-url: url(./assets/assets/fundo.rosa2.webp);
+    --stroke-color:rgba(0, 0, 0, 0.5);
+    --surface-color-hover: rgba(0, 0, 0, 0.2);
+    --surface-color:rgba(0, 0, 0, 0.05);
+    --hilight-color: rgba(0, 0, 0, 0.1);
+    --switch-bg-url: url(./assets/assets/moon-stars.svg);
+}
+
+.light {
     --text-color: white;
     --bg-url: url(./assets/assets/BLACK.jpg);
     --stroke-color: rgba(255, 255, 255, 0.5);
     --surface-color:rgba(255, 255, 255, 0.05);
     --surface-color-hover: rgba(0, 0, 0, 0.2);
     --hilight-color: rgba(255, 255, 255, 0.2);
-    --switch-bg-url: url(./assets/assets/moon-stars.svg);
-}
-
-.light {
-    --text-color:black;
-    --bg-url: url(./assets/assets/fundo.rosa2.webp);
-    --stroke-color:rgba(0, 0, 0, 0.5);
-    --surface-color:rgba(0, 0, 0, 0.05);
-    --surface-color-hover: rgba(0, 0, 0, 0.2);
-    --hilight-color: rgba(0, 0, 0, 0.1);
     --switch-bg-url: url(./assets/assets/sun.svg)
 }
 
@@ -177,11 +177,11 @@ footer {
 
 @media (min-widht: 700px) {
     :root {
-        --bg-url: url(./assets/assets/BLACK.jpg);
+        --bg-url: url(./assets/assets/fundo.rosa2.webp);
     }
 
     .light {
-        --bg-url: url(./assets/assets/fundo.rosa2.webp);
+        --bg-url: url(./assets/assets/BLACK.jpg);
     }
 }
 
